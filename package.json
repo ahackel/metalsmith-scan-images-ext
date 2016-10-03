@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "name": "metalsmith-scan-images-ext",
+  "description": "A metalsmith plugin that scans all images in subfolders, creates resized versions and adds it to metadata.",
+  "author": {
+    "name": "Andreas Hackel",
+    "email": "mail@andreashackel.de",
+    "url": "www.andreashackel.de"
+  },
+  "main": "src/index.js",
+  "homepage": "https://github.com/ahackel/metalsmith-scan-images-ext",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahackel/metalsmith-scan-images-ext"
+  },
+   "dependencies": {
+    "debug": "~0.7.4",
+    "minimatch": "^0.2.14"
+  }
+}
